@@ -1,0 +1,26 @@
+{
+    "name": "jinjie/silverstripe-admin-material-icons",
+    "description": "Material Design Icons on Silverstripe 4 admin",
+    "homepage": "https://github.com/jinjie/silverstripe-admin-material-icons",
+    "keywords": ["silverstripe", "silverstripe-admin", "material design icons"],
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jinjie/silverstripe-admin-material-icons/issues"
+    },
+    "require": {
+        "silverstripe/framework": "^4",
+        "silverstripe/admin": "^1"
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    }
+}

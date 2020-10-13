@@ -1,0 +1,9 @@
+---
+name: silverstripe-admin-material-icons
+---
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - "jinjie/silverstripe-admin-material-icons: client/dist/material-design-icons/material-icons.css"
+  extra_requirements_javascript:
+    - "jinjie/silverstripe-admin-material-icons: client/dist/js/material-icons.js"
