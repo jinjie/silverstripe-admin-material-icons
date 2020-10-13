@@ -17,6 +17,21 @@ composer require jinjie/silverstripe-admin-material-icons
 No configuration is required. Make use of the current [$menu_icon_class](https://docs.silverstripe.org/en/4/developer_guides/customising_the_admin_interface/modeladmin/#custom-modeladmin-css-menu-icons-using-built-in-icon-font).
 Instead of using the built in font, use something like `mdi:face`.
 
+### Examples
+
+```php
+// In ModelAdmin
+class MyModelAdmin extends ModelAdmin {
+    private static $menu_icon_class = 'mdi:face';
+}
+```
+
+```yml
+# Or in yaml
+SilverStripe\SiteConfig\SiteConfigLeftAndMain:
+  menu_icon_class: 'mdi:settings'
+```
+
 ## How it works
 
 A script will find classes in that starts with `mdi:`, adds `material-icons` to it and text in the in the element.
