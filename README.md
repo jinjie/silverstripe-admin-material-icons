@@ -37,16 +37,12 @@ SilverStripe\SiteConfig\SiteConfigLeftAndMain:
 A script will find classes in that starts with `mdi:`, adds `material-icons` to it and text in the in the element.
 
 ## License
+
 See [License](license.md)
-
-We have included a 3-clause BSD license you can use as a default. We advocate for the BSD license as 
-it is one of the most permissive and open licenses.
-
-Feel free to alter the [license.md](license.md) to suit if you wan to use an alternative license.
-You can use [choosealicense.com](http://choosealicense.com) to help pick a suitable license for your project.
 
 ## Maintainers
  * Kong Jin Jie <jinjie@swiftdev.sg>
   
 ## Development and contribution
+
 If you would like to make contributions to the module please ensure you raise a pull request and discuss with the module maintainers.
